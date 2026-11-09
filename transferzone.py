@@ -3,7 +3,7 @@
 axfr_check.py - testa transferencia de zona DNS (AXFR) numa lista de hosts.
 
 Uso:
-    python3 axfr_check.py -f hosts.txt -t 20 -o out/
+    python3 transferzone.py -f osts.txt -t 20 --try-parent -o axfr_out
 
 Requer: pip install dnspython
 """
